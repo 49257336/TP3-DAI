@@ -3,6 +3,7 @@ import agregarProducto from './agregarProducto.js';
 import mostrarFecha from './mostrarFecha.js';
 import obtenerPais from './obtenerPais.js';
 import buscarProducto from './buscarProducto.js';
+import parsearArchivo from './parseCSV.js';
 
 
 const data = fs.readFileSync('productos.json', 'utf-8');
@@ -16,3 +17,4 @@ productos.forEach(producto => {
 mostrarFecha();
 //obtenerPais("Argentina");
 buscarProducto("Mouse");
+parsearArchivo();
