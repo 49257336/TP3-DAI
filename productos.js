@@ -1,4 +1,0 @@
-[
-    {"nombre": "Mouse", "precio": "1500"},
-    {"nombre": "Teclado", "precio": "3500"}
-]
