@@ -6,6 +6,7 @@ import buscarProducto from './buscarProducto.js';
 import contador from './contador10sec.js';
 import parsearArchivo from './parseCSV.js';
 import analizarTexto from './analizarTexto.js';
+import validarPassword from './validarPassword.js';
 
 
 const data = fs.readFileSync('productos.json', 'utf-8');
@@ -22,3 +23,4 @@ buscarProducto("Mouse");
 parsearArchivo();
 contador();
 console.log(analizarTexto("hola mundo"));
+validarPassword("asD12Fq7n");
